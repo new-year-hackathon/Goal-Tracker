@@ -3,6 +3,10 @@ Goal Tracker is a web application that helps users set goals and tracks their pr
 
 ## Getting Started
 1. Clone this repo
+2. Run `npm install`
+3. For Mac users, run the command `npm run start-dev` to start webpack and also the server
+4. For Windows users, run the command `npm run build-client-watch` (or npm run build-client to run webpack once) and then `npm run start-server` to start the server
+5. If you navigate to http://localhost:1337/, you should see the web page! 
 
 ## MVP 
 1. Login/ register (options to login with social media accounts) 

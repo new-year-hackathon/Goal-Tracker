@@ -1,5 +1,5 @@
 # Goal Tracker
-Goal Tracker is a web application that helps users keep track of goals that they set and tracks their progress towards their goal and how far they've come. 
+Goal Tracker is a web application that helps users set goals and tracks their progress toward completing them to see how far they've come. 
 
 ## Getting Started
 1. Clone this repo

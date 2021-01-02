@@ -21,6 +21,10 @@
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
+  
+  <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather" />
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Playfair+Display" />
 
     <style>
       body {
@@ -39,10 +43,7 @@
         border-radius: 24px;
       }
 
-      img {
-        height: 10%;
-        width: auto;
-      }
+
 
       .logo-image {
         width: 28px;
@@ -76,11 +77,79 @@
         color: white;
       }
 
+h1 {
+  color: #EBE145;
+  font-family: Merriweather;
+  font-size: 30px;
+}
+
+h2 {
+  color: #EBE145;
+  font-family: Merriweather;
+  font-size: 25px;
+}
+
+h3 {
+  color: #EBE145;
+  font-family: Merriweather;
+  font-size: 20px;
+}
+
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .row {
+        display: flex;
+        ccolor: white;
+  font-family: Merriweather;
+        font-size: 25px;
+      }
+
+      .column {
+        flex: 33.33%;
+        padding: 5px;
+      }
+
+      @media screen and (max-width: 500px) {
+        .column {
+          width: 100%;
+        }
+      }
+
+      .holder {
+        text-align: center;
+      }
+
+
+hr {
+  border-top: 20px solid #964B00;  
+}
+
+h4 {
+  color: #EBE145;
+  font-family: Chewy;
+  font-size: 30px;
+}
+      
+      .pet {
+        width: 220px;
+        height: 200px;
+      }
 
     </style>
 </head>
 <body>
-    <div id="main">
+   
     <header>
     <div class="topnav">
       <a class="navbar-brand" href="/">
@@ -99,13 +168,55 @@
     <div class="pyro">
           <div class="before"></div>
           <div class="after"></div>
-    <h1>
-      Shop
-    </h1>
-    <br />
-    </div>
-    </header>
+      </div>
+ </header>
+      
+  
+  <h1>Your level:</h1><h2>LV. 8</h2>
+  <h3>
+     Level up to unlock more pets!
+  </h3>
+  <br>
+ <!--first row-->
+<div class="row">
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/new-year-hackathon/Goal-Tracker/main/Images/Lv%203.png" alt="baby dragon" class="pet">
+    <p id="three">LV. 3</p>
+  </div>
+  
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/new-year-hackathon/Goal-Tracker/main/Images/Lv%205.png" alt="crystal dragon" class="pet">
+    <p id="five">LV. 5</p>
+  </div>
+  
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/new-year-hackathon/Goal-Tracker/main/Images/Lv%2010.png" alt="sea dragon" class="pet">
+    <p id="ten">LV. 10</p>
+  </div>
+</div>
+  
+ <hr>
 
-    </div>
+  <!--second row-->
+  <div class="row">
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/new-year-hackathon/Goal-Tracker/main/Images/Lv%2015.png" alt="winged dragon" class="pet">
+    <p id="fifteen">LV. 15</p>
+  </div>
+  
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/new-year-hackathon/Goal-Tracker/main/Images/Lv%2030.png" alt="snake dragon" class="pet">
+    <p id="thirty">LV. 30</p>
+  </div>
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/new-year-hackathon/Goal-Tracker/main/Images/locked.png" alt = "locked" class="pet">
+    <p id="forty">LV. 40</p>
+  </div>
+  </div>
+  
+<hr>
+
+  
+
 </body>
 </html>

@@ -4,14 +4,16 @@
   <meta charset="UTF-8">
   <title>Register</title>
   <link rel="stylesheet" href="./style.css">
+    <!-- add shortcut icon -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://cdn.glitch.com/effe7e6e-68f6-4343-a109-8c86ad8fcd8c%2FWhatsApp_Image_2021-01-01_at_21.26.48-removebg-preview.ico?v=1609537314116"
+      sizes="16x16"
+    />
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<html>
-<head>
-<link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet'>
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather" />
+<link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather">
 <style>
   body {
     background-image: url(https://images.unsplash.com/photo-1569983207103-78d3b4dddcac?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80);
@@ -88,6 +90,19 @@ div {
   margin-right: 10%;
   margin-left: 10%;
 }
+
+  .link {
+    color: #FFFFFF;
+  }
+  
+  p  {
+  color:#EBE145;
+   font-family: Merriweather;
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 5px;
+}
+
 </style>
 </head>
 <body>
@@ -98,9 +113,9 @@ div {
 <div>
   <h1>Register</h1>
 
-  <input type="text" id="loginEmail" name="email" placeholder="First Name" >
+  <input type="text" id="firstName" name="email" placeholder="First Name" >
 
-  <input type="text" id="loginEmail" name="email" placeholder="Last Name" >
+  <input type="text" id="lastName" name="email" placeholder="Last Name" >
 <br>
 <input type="phrase" id="signupEmail" name="email" placeholder="Email" >
  
@@ -115,7 +130,11 @@ div {
  <br> 
 
  <input type="button" id="submit" value="REGISTER" onclick="return Match()"/>
+
+ <br> 
+ <p> Have an account? <a href="login.html" class="link"> Login </a> </p>
  
+  <br>
 </div>
  
 <!-- partial -->

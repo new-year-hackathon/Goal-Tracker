@@ -169,7 +169,7 @@
     <center>
       <h1>
         <font style="font-family:impact;color:red;"
-          >Make your new year resolution!</font
+          >Set milestones to achieve your goals</font
         >
       </h1>
 
@@ -179,10 +179,10 @@
         onsubmit="return validateForm()"
         method="post"
       >
-        My goal:
+        Set milestones:
         <br />
         <br />
-        <input type="text" name="goal" />
+        <input type="text" name="milestone" />
         <br />
         <br />
         <input type="submit" value="Submit" />
@@ -193,9 +193,9 @@
   <!-- form validation -->
   <script>
     function validateForm() {
-      var x = document.forms["myForm"]["goal"].value;
+      var x = document.forms["myForm"]["milestone"].value;
       if (x == "") {
-        alert("My goal must be filled out");
+        alert("Milestones must be filled out");
         return false;
       }
     }

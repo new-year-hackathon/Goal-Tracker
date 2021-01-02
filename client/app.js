@@ -8,6 +8,7 @@ const App = () => {
       {/* <Header />
       <Navbar />
       <Routes /> */}
+      <h1>Hello!!!</h1>
     </div>
   );
 };

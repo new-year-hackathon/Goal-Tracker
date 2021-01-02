@@ -1,0 +1,60 @@
+body {
+  background-color: #2A2B2D;
+}
+
+h1 {
+color: #EBE145;
+font-family: Chewy;
+text-align: center;
+}
+
+input[type=text], select {
+width: 20%;
+padding: 6px 10px;
+margin: 6px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+font-family: Merriweather;
+
+}
+
+input[type=phrase], select {
+width: 41%;
+padding: 6px 10px;
+margin: 40px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+font-family: Merriweather;
+}
+
+input[type=password], select {
+width: 41%;
+padding: 6px 10px;
+margin: 40px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+font-family: Merriweather;
+}
+
+input[type=button], select {
+background-color: #FF0000;
+border-radius: 4px;
+color: white;
+font-family: Merriweather;
+padding: 15px 32px;
+text-align: center;
+position: absolute;
+top: 510px;
+right: 420px;
+}
+
+div {
+text-align: center;
+position: relative;
+}

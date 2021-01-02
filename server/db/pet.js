@@ -9,6 +9,9 @@ const Pet = db.define('pet', {
           notEmpty: true,
         },
     },
+    level: {
+        type: Sequelize.INTEGER,
+    },
     imageUrl: {
         type: Sequelize.TEXT,
         allowNull: false,

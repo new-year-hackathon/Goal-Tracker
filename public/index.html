@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Goal Tracker</title>
-     <!-- add shortcut icon -->
+    <!-- add shortcut icon -->
     <link
       rel="shortcut icon"
       type="image/x-icon"
@@ -16,11 +16,13 @@
       href="https://fonts.googleapis.com/css?family=Cookie"
       rel="stylesheet"
     />
-     <!-- link for icons -->
+    <!-- link for icons -->
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
+
+    <script defer src="/bundle.js"></script>
 
     <style>
       body {
@@ -46,30 +48,32 @@
         border-radius: 16px;
         background-color: #aa381e;
         color: #FFFFFF;
-        padding: 10px; 
+        padding: 10px;
       }
-
     </style>
-</head>
-<body>
-    <div id="main">
-    <header>
-      <div class="container">
-        <div id="brandname">
-          <img
-            src="https://cdn.glitch.com/effe7e6e-68f6-4343-a109-8c86ad8fcd8c%2FWhatsApp_Image_2021-01-01_at_21.26.48-removebg-preview.png?v=1609537323376"
-          />
-          <h1>
-            Rise
-          </h1>
-        </div>
-        <h3>Make your new year resolution!</h3>
+  </head>
+  <body>
+    <div class="pyro">
+      <div class="before"></div>
+      <div class="after"></div>
+      <div id="main">
+        <header>
+          <div class="container">
+            <div id="brandname">
+              <img
+                src="https://cdn.glitch.com/effe7e6e-68f6-4343-a109-8c86ad8fcd8c%2FWhatsApp_Image_2021-01-01_at_21.26.48-removebg-preview.png?v=1609537323376"
+              />
+              <h1>
+                Rise
+              </h1>
+            </div>
+            <h3>Make your new year resolution!</h3>
 
-        <button onclick="herf='login.html'"> Login/ Register </button>
+            <a href="login.html"><button>Login/ Register</button></a>
+             <br>  <br> 
+          </div>
+        </header>
       </div>
-    </header>
-
     </div>
-    <script defer src="/bundle.js"></script>
-</body>
+  </body>
 </html>

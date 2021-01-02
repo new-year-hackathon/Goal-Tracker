@@ -176,30 +176,18 @@
       <form
         name="myForm"
         action="/url-server"
-        onsubmit="return validateForm()"
         method="post"
       >
         Set milestones:
         <br />
         <br />
-        <input type="text" name="milestone" />
+        <input type="text" name="milestone" placeholder="Type here..." required>
         <br />
         <br />
         <input type="submit" value="Submit" />
       </form>
     </center>
   </body>
-
-  <!-- form validation -->
-  <script>
-    function validateForm() {
-      var x = document.forms["myForm"]["milestone"].value;
-      if (x == "") {
-        alert("Milestones must be filled out");
-        return false;
-      }
-    }
-  </script>
 
   <!-- fireworks animation -->
   <script>

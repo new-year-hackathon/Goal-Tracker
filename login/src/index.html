@@ -1,0 +1,37 @@
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather" />
+<style>
+</style>
+</head>
+<body>
+  
+  <!--Google Login API-->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+  
+  <!--FB Login API-->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="NEH6F5cq"></script>
+  
+  <h1 style="padding-left: 350px;">Login</h1>
+    <input type="text" id="loginEmail" name="email" value="Email" ><br><br>
+  
+ <span id="password">
+         <input onfocus="return turnPassword()" name="password" type="text" value="Password"/>
+      </span>
+  <br></br>
+  <input id="checkbox" type="checkbox"/><label for="checkbox">Remember Me</label>
+  
+ <br></br>
+ <br></br>
+
+<button class="button">LOGIN</button>
+
+
+<div class="g-signin2" data-onsuccess="onSignIn"></div>
+<meta name="google-signin-client_id" content="362422526569-jhsvradkhis40i8avr8p95bd6ujfun33.apps.googleusercontent.com">
+
+<div class="fb-login-button" data-width="" data-size="small" data-button-type="login_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false"></div>
+
+<p>Don't have an account? <a href="www.rise.com/signup">Sign up now!<p>

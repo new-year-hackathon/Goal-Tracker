@@ -176,7 +176,6 @@
       <form
         name="myForm"
         action="/url-server"
-        onsubmit="return validateForm()"
         method="post"
       >
         Set milestones:
@@ -189,17 +188,6 @@
       </form>
     </center>
   </body>
-
-  <!-- form validation -->
-  <script>
-    function validateForm() {
-      var x = document.forms["myForm"]["milestone"].value;
-      if (x == "") {
-        alert("Milestones must be filled out");
-        return false;
-      }
-    }
-  </script>
 
   <!-- fireworks animation -->
   <script>

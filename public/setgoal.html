@@ -176,7 +176,6 @@
       <form
         name="myForm"
         action="/url-server"
-        onsubmit="return validateForm()"
         method="post"
       >
         My goal:
@@ -190,16 +189,6 @@
     </center>
   </body>
 
-  <!-- form validation -->
-  <script>
-    function validateForm() {
-      var x = document.forms["myForm"]["goal"].value;
-      if (x == "") {
-        alert("My goal must be filled out");
-        return false;
-      }
-    }
-  </script>
 
   <!-- fireworks animation -->
   <script>

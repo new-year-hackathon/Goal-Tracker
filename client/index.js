@@ -1,19 +1,14 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import {render} from 'react-dom'
 import {Provider} from 'react-redux'
-import {Router} from 'react-router-dom'
-import history from './history'
+
 import store from './store'
+import {Navbar} from './components'
 import App from './app'
 
-// establishes socket connection
-import './socket'
-
-ReactDOM.render(
-    <Provider store={store}>
-        <Router history={history}>
-            <App />
-        </Router>
-    </Provider>,
-    document.getElementById('app')
-);
+render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('main')
+)

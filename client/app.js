@@ -1,14 +1,14 @@
 import React from 'react';
-// import {Navbar, Header} from './components';
-// import Routes from './routes';
+import {Navbar} from './components';
+import './components/styles/App.css';
 
 const App = () => {
   return (
     <div>
-      {/* <Header />
-      <Navbar />
-      <Routes /> */}
-      <h1>Hello!!!</h1>
+      {/* <Navbar />
+      <Home /> */}
+      <h1>Hello from App Component! :)</h1>
+      
     </div>
   );
 };

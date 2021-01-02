@@ -1,0 +1,30 @@
+{
+  "name": "Goal-Tracker",
+  "version": "1.0.0",
+  "description": "Goal Tracker is a web application that helps users keep track of goals that they set and tracks their progress towards their goal and how far they've come.",
+  "main": "index.js",
+  "scripts": {
+    "build-client": "webpack",
+    "build-client-watch": "webpack -w",
+    "start-dev": "npm run build-watch & npm run start-server",
+    "start-server": "nodemon server -e html,js,scss --ignore public --ignore client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/new-year-hackathon/Goal-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/new-year-hackathon/Goal-Tracker/issues"
+  },
+  "homepage": "https://github.com/new-year-hackathon/Goal-Tracker#readme",
+  "devDependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "nodemon": "^2.0.6",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  }
+}

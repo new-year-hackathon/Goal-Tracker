@@ -3,6 +3,7 @@ import { Route, BrowserRouter as Router, Link } from "react-router-dom"
 import Home from "./Home"
 import Goals from "./Goals"
 import Shop from "./Shop"
+import './styles/Navbar.css';
 
 const Navbar = () => {
     return (

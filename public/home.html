@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Goal Tracker</title>
+    <title>Home</title>
      <!-- add shortcut icon -->
     <link
       rel="shortcut icon"
@@ -27,6 +27,8 @@
         font: 15px/1.5 Arial, Helvetica, sans-serif;
         padding: 0px;
         background-color: #1A1A1A;
+        color: #FFFFFF;
+        text-align: center;
       }
 
       .container {
@@ -42,31 +44,62 @@
         width: auto;
       }
 
-      button {
-        border-radius: 16px;
-        background-color: #aa381e;
-        color: #FFFFFF;
-        padding: 10px; 
+      .logo-image {
+        width: 28px;
+        height: 26px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-top: -6px;
       }
+
+      .topnav {
+        overflow: hidden;
+        background-color: #3a3a3a;
+      }
+
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .topnav a.active {
+        background-color: #FF2035;
+        color: white;
+      }
+
 
     </style>
 </head>
 <body>
     <div id="main">
     <header>
-      <div class="container">
-        <div id="brandname">
+    <div class="topnav">
+      <a class="navbar-brand" href="/">
+        <div class="logo-image">
           <img
             src="https://cdn.glitch.com/effe7e6e-68f6-4343-a109-8c86ad8fcd8c%2FWhatsApp_Image_2021-01-01_at_21.26.48-removebg-preview.png?v=1609537323376"
+            class="img-fluid"
           />
-          <h1>
-            Rise
-          </h1>
         </div>
-        <h3>Make your new year resolution!</h3>
-
-        <button onclick="herf='login.html'"> Login/ Register </button>
-      </div>
+      </a>
+      <a class="active" href="/home.html">Home</a>
+      <a href="goal.html">My Goals</a>
+      <a href="shop.html">Shop</a>
+    </div>
+    <br />
+    <h1>
+      My Goals
+    </h1>
+    <br />
     </header>
 
     </div>

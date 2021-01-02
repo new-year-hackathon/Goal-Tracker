@@ -21,4 +21,4 @@ Goal Tracker is a web application that helps users set goals and tracks their pr
 7. Settings (not necessary or hardcode)
 
 ## Stretch Goal
-- pets vary by country
+- Pets vary by country

@@ -1,14 +1,13 @@
 import React from 'react';
-import {Navbar} from './components';
+import Home from './components/Home';
+import Shop from './components/Shop';
+import Navbar from './components/Navbar';
 import './components/styles/App.css';
 
 const App = () => {
   return (
     <div>
-      {/* <Navbar />
-      <Home /> */}
-      <h1>Hello from App Component! :)</h1>
-      
+      <Navbar />
     </div>
   );
 };

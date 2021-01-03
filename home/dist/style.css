@@ -1,0 +1,65 @@
+body {
+    background-color: #2A2B2D;
+}
+
+h1 {
+  color: #EBE145;
+  font-family: Playfair Display;
+  font-size: 50px;
+}
+
+div {
+  color: #EBE145;
+  font-family: Chewy;
+  font-size: 25px;
+  width: 50%;
+  padding: 6px 10px;
+  margin: 10px 0;
+}
+
+h2 {
+  color: #EBE145;
+  font-family: Chewy;
+  font-size: 30px;
+}
+
+progress#progressBar:hover:before {
+    display: inline;
+    content: attr(value);
+    position: absolute;
+    top: 463px;
+    right: 620px;
+    font-family: Merriweather;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+p {
+   font-family: Merriweather;
+   color: #FFFFFF;
+   font-size: 20px;
+}
+
+h3 {
+  color: #EBE145;
+  font-family: Chewy;
+  font-size: 30px;
+  position: absolute;
+  top: 575px;
+  right: 780px;
+}
+
+h4 {
+  color: #EBE145;
+  font-family: Chewy;
+  font-size: 30px;
+  position: absolute;
+  top: 575px;
+  right: 150px;
+}
+
+img {
+ position: absolute;
+ top: 670px;
+ right: 150px; 
+}

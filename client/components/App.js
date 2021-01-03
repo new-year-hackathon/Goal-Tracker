@@ -1,21 +1,37 @@
 import React from 'react';
+import { connect } from "react-redux";
+import { withRouter, Link } from 'react-router-dom';
 import Navbar from './Navbar';
-import Routes from './Routes';
-import {Link} from 'react-router-dom';
 import './styles/App.css';
 
-const App = () => {
-  return (
-    <div>
-      <Navbar />
-      {/* <Routes /> */}
-      <Link to="/login">
+export class App extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <div>
+        <Navbar />
+        <Link to="/login">
           <button type="submit">
             Login
           </button>
-      </Link>
-    </div>
-  );
+        </Link>
+      </div>
+    );
+  }
+}
+
+const mapState = () => {
+  return {
+
+  };
 };
 
-export default App;
+const mapDispatch = () => {
+  return {
+  }
+};
+
+export default connect(mapState, mapDispatch)(App)

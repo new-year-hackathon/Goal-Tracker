@@ -1,0 +1,83 @@
+body {
+    background-image: url(https://bestanimations.com/media/fireworks/1881671278gold-red-fireworks-gif.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: #EBE145;
+    font-family: Chewy;
+    text-align: center;
+    padding-top: 10px;
+}
+
+input[type="text"],
+select {
+    width: 20%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Merriweather;
+  }
+
+input[type="password"],
+select {
+    width: 20%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Merriweather;
+  }
+
+label {
+    color: #EBE145;
+    font-family: Merriweather;
+}
+
+.button {
+    border-radius: 16px;
+    background-color: #aa381e;
+    color: #FFFFFF;
+    padding: 10px;
+    position: absolute;
+    top: 250px;
+    right: 47%;
+}
+
+.g-signin2 {
+    width: 20%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    position: absolute;
+    top: 190px;
+    right: 150px;
+}
+
+p {
+    color: #EBE145;
+    font-family: Merriweather;
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 5px;
+}
+
+.main {
+    text-align: center;
+    position: relative;
+    background-color: #2A2B2D;
+    opacity: 0.9;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+  .link {
+    color: #FFFFFF;
+  }

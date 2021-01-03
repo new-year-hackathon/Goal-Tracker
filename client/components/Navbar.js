@@ -1,6 +1,6 @@
 import React from "react"
-import { Route, BrowserRouter as Router, Link } from "react-router-dom"
-import { Home, Goals, Shop, Login, Register } from '../components';
+import { Route, BrowserRouter as Router, Link, Switch } from "react-router-dom"
+import { App, Home, Goals, Shop, Login, Register } from '../components';
 import './styles/Navbar.css'
 
 const Navbar = () => {
@@ -13,11 +13,14 @@ const Navbar = () => {
                     <Link to="/shop">Shop</Link>
                 </nav>
                 <div id="spacer"></div>
-                <Route path="/home" component={Home} />
-                <Route path="/goals" component={Goals} />
-                <Route path="/shop" component={Shop} />
-                <Route path="/login" component={Login} />
-                <Route path="/register" component={Register} />
+                <Switch>
+                    <Route exact path="/" component={App} />
+                    <Route path="/home" component={Home} />
+                    <Route path="/goals" component={Goals} />
+                    <Route path="/shop" component={Shop} />
+                    <Route path="/login" component={Login} />
+                    <Route path="/register" component={Register} />
+                </Switch>
             </div>
         </Router>
     );

@@ -10,5 +10,4 @@ export {default as Login} from './Login';
 export {default as Milestone} from './Milestone';
 export {default as Navbar} from './Navbar';
 export {default as Register} from './Register';
-export {default as Routes} from './Routes';
 export {default as Shop} from './Shop';

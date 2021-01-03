@@ -1,14 +1,16 @@
 import React from 'react'
 import {render} from 'react-dom'
 import {Provider} from 'react-redux'
-
+import {Router} from 'react-router-dom';
+import history from './history';
 import store from './store'
-import {Navbar, Home} from './components'
-import App from './app'
+import {App} from './components'
 
 render(
   <Provider store={store}>
-    <App />
+    <Router history={history}>
+      <App />
+    </Router>
   </Provider>,
   document.getElementById('main')
 )

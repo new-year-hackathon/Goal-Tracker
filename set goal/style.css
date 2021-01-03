@@ -1,0 +1,179 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0px;
+    background-color: rgb(158, 119, 119);
+    background-image: url(https://images.unsplash.com/flagged/photo-1552065172-1300b4be8670?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1051&q=80);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  form {
+    color: #FFFFFF;
+  }
+
+  .container {
+    text-align: center;
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 24px;
+  }
+
+  img {
+    height: 10%;
+    width: auto;
+  }
+
+  button {
+    border-radius: 16px;
+    background-color: #EBE145;
+    color: #FFFFFF;
+    padding: 10px;
+  }
+
+  h1 {
+      font-family: Chewy;
+      color: #EBE145;
+      margin-top: 80px;
+      font-size: 40px;
+  }
+
+  input[type=submit] {
+    font-family: Merriweather;
+    background-color: red;
+    height: 50px;
+    color: white;
+    width: 325px;
+    font-size: 20px;
+    opacity: 1;
+  }
+
+  #main {
+    background-color: #2A2B2D;
+    vertical-align: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    opacity: 0.9;
+  }
+
+  input[type=text] {
+      height: 50px;
+      width: 300px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 15px;
+  }
+
+  @keyframes firework-animation {
+    0% {
+      background-color: #ff8426;
+    }
+    25% {
+      background-color: #fffc84;
+    }
+    50% {
+      background-color: #ff83f4;
+    }
+    75% {
+      background-color: #83b6ff;
+    }
+    100% {
+      background-color: #ff8426;
+    }
+  }
+  @-webkit-keyframes firework-animation {
+    0% {
+      background-color: #ff8426;
+    }
+    25% {
+      background-color: #fffc84;
+    }
+    50% {
+      background-color: #ff83f4;
+    }
+    75% {
+      background-color: #83b6ff;
+    }
+    100% {
+      background-color: #ff8426;
+    }
+  }
+  @keyframes firework-seed-animation {
+    0% {
+      background-color: #ff8426;
+    }
+    25% {
+      background-color: #fffc84;
+    }
+    100% {
+      background-color: #ff8426;
+    }
+  }
+  @-webkit-keyframes firework-seed-animation {
+    0% {
+      background-color: #ff8426;
+    }
+    25% {
+      background-color: #fffc84;
+    }
+    100% {
+      background-color: #ff8426;
+    }
+  }
+  @keyframes firework-fade-animation {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @-webkit-keyframes firework-fade-animation {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  .fireWorkBatch {
+    z-index: 999;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation-name: firework-fade-animation;
+    animation-timing-function: cubic-bezier(0.5, 0, 1 1);
+    animation-duration: 2.5s;
+  }
+  .fireWorkParticle {
+    z-index: 999;
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    border-radius: 2.5px;
+    animation-name: firework-animation;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  .fireWorkSeed {
+    z-index: 999;
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    border-radius: 5px;
+    animation-name: firework-seed-animation;
+    animation-timing-function: linear;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+  }

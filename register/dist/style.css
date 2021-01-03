@@ -73,3 +73,11 @@ div {
   margin-right: 10%;
   margin-left: 10%;
 }
+
+p  {
+  color: white;
+   font-family: Merriweather;
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 5px;
+}
